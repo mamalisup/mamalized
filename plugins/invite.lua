@@ -60,7 +60,7 @@ local function run(msg, matches)
       chat_add_user(chat, user, callback, {chat=chat, text=text})
     end
   else
-    return 'This isnt a chat group!'
+    return 'This isn\'t a chat group!'
   end
 end
 
